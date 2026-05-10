@@ -1,0 +1,4 @@
+.syntax-check.js
+node_modules/
+original.html
+split.js
