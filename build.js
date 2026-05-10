@@ -4,7 +4,7 @@ const path = require('path');
 const { execSync } = require('child_process');
 
 const SRC_DIR = path.join(__dirname, 'src');
-const DIST_DIR = path.join(__dirname, 'dist');
+const DIST_DIR = path.join(__dirname, 'docs');
 const TEMPLATE = path.join(SRC_DIR, 'template.html');
 const OUTPUT = path.join(DIST_DIR, 'annies-cozy-day.html');
 
